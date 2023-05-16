@@ -1,0 +1,27 @@
+{
+  "name": "my-gitlab-koa2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "3",
+    "koa-jsonp": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "7",
+    "koa-session-minimal": "^4.0.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.1",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3"
+  }
+}
