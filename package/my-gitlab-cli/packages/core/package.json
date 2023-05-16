@@ -1,0 +1,29 @@
+{
+  "name": "@xld-cli-dev/core",
+  "version": "1.0.4",
+  "description": "xld-cli-dev core",
+  "author": "xuliangdong <1393679430@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "xld-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@xld-cli-dev/utils": "^1.0.4"
+  },
+  "gitHead": "14c28ae89a81974627c1afd04ab33a600295478d",
+  "publishConfig": {
+    "access": "public"
+  }
+}
