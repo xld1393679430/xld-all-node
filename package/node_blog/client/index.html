@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="fecthData()">调接口2</button>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.9.1/axios.js"></script>
+    <script>
+        function fecthData() {
+            console.log('fecthData----')
+            axios({
+                url: '/api/blog/list',
+                method: 'get',
+                // headers: {
+                //     "content-type": "application/json"
+                // }
+            }).then(res => {
+                console.log(res, 1111)
+            }).catch(err => {
+                console.error(err, 2222)
+            })
+        }
+        window.onload = () => {
+
+        }
+    </script>
+</body>
+
+</html>
