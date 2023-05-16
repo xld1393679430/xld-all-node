@@ -1,0 +1,41 @@
+{
+  "name": "@lerna-cli-xld-v2/init",
+  "version": "0.0.3",
+  "description": "init command",
+  "author": "ld_xu <ld_xu@trip.com>",
+  "homepage": "https://gitlab.com/1393679430/cli_project#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/1393679430/cli_project.git",
+    "directory": "packages/init"
+  },
+  "scripts": {
+    "test": "node ./__tests__/init.test.js"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/1393679430/cli_project/issues"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@lerna-cli-xld-v2/command": "^0.0.3",
+    "@lerna-cli-xld-v2/utils": "^0.0.3",
+    "ejs": "^3.1.8",
+    "execa": "^6.1.0",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.0.3",
+    "ora": "^6.1.2",
+    "path-exists": "^5.0.0"
+  }
+}

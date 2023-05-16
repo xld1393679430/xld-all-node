@@ -1,0 +1,14 @@
+{
+  "name": "@xld_template/vue-template",
+  "version": "1.0.7",
+  "description": "vue-template",
+  "author": "xld",
+  "license": "ISC",
+  "files": [
+    "plugins",
+    "template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@xld_template/react-template",
+  "version": "1.0.3",
+  "description": "react-template",
+  "author": "xld",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

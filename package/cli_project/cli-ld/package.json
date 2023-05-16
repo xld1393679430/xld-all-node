@@ -1,0 +1,22 @@
+{
+  "name": "cli-ld",
+  "version": "1.1.0",
+  "description": "",
+  "bin": {
+    "cli-ld": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "cli-ld-lib": "^1.1.0",
+    "commander": "^9.4.1",
+    "dedent": "^0.7.0",
+    "yargs": "^17.6.2"
+  }
+}

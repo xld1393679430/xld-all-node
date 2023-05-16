@@ -1,0 +1,13 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish:react": "cd react-template && npm publish",
+    "publish:vue": "cd vue-template && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

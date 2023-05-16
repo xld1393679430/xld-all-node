@@ -1,0 +1,34 @@
+{
+  "name": "@xld-cli-dev/test-lerna-a",
+  "version": "0.0.14",
+  "description": "> TODO: description",
+  "author": "ld_xu <ld_xu@trip.com>",
+  "homepage": "https://gitlab.com/1393679430/cli_project#readme",
+  "license": "ISC",
+  "main": "lib/index.mjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/1393679430/cli_project.git",
+    "directory": "packages/a"
+  },
+  "scripts": {
+    "test": "node ./__tests__/index.test.mjs"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/1393679430/cli_project/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "20a8a920b1392250f805e81022d6315808880938"
+}

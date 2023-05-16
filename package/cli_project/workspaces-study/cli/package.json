@@ -1,0 +1,18 @@
+{
+  "name": "@ld_xu/test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ld-xu-cli": "bin/index.mjs"
+  },
+  "dependencies": {
+    "@ld_xu/test-a": "^1.0.0",
+    "@ld_xu/test-b": "^1.0.0"
+  }
+}

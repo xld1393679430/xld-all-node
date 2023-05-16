@@ -1,0 +1,10 @@
+'use strict';
+
+/**
+ * @param {Egg.Application} app - egg application
+ */
+module.exports = app => {
+  const { router, controller } = app;
+  router.get('/', controller.home.index);
+  router.resources('/v1/project', controller.v1.project); // router.resources: 使用Restful Api方式
+};

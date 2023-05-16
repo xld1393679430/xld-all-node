@@ -1,0 +1,17 @@
+{
+  "name": "lerna-workspaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "ld-xu-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "a",
+    "b",
+    "cli"
+  ]
+}

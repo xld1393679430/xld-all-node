@@ -1,0 +1,10 @@
+{
+  "name": "@xld_template/vue-element-admin-template",
+  "version": "1.0.3",
+  "description": "vue-element-admin-template",
+  "author": "xld",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
